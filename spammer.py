@@ -12,6 +12,6 @@ if len(sys.argv) == 3 :
     except KeyboardInterrupt:
         print('\nExitting')
 elif len(sys.argv) == 2:
-    print('Syntax : python3 spammer.py "The message you want to spam" [delay]')
+    print('Syntax : python3 spammer.py "message" [delay in seconds]')
 else:
-    print('Syntax : python3 spammer.py "The message you want to spam" [delay]')
+    print('Syntax : python3 spammer.py "message" [delay in seconds]')
